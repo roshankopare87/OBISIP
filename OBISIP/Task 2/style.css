@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+    
+    background-color: rgb(131, 186, 153);
+    color: rgb(0, 0, 0);
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+body {
+    background: linear-gradient(243deg,#69f8d1,#c5074c,#f6f83d,#103018,#8f94f4);
+    background-size: 300% 300%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 50px;
+
+}
+
+
+
+figcaption{
+    font-size: 41px;
+    background-color: #e7d787;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(0, 0, 0);
+}
+#p1{
+    font-size: 18px;
+    column-count: 2;
+    padding: 10px 10px;
+    column-gap: 55px;
+}
+div{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+#last{
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    column-count: 2;
+    column-gap: 55px;
+    font-family: 'Lora', serif;
+    padding-left: 20px;
+}
+#last2{
+    padding-top: 20px;
+    padding-right: 20px;
+}
